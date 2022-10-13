@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Starshiplist from './pages/StarShipsList/StarShipsList';
-import StarShipDetails from './pages/StarShipPage/StarShipPage';
+import Header from './components/NavBar/NavBar';
+import Starshiplist from './pages/StarshipsList/StarshipsList';
+import StarShipDetails from './pages/StarshipPage/StarshipPage';
 import {Route, Routes} from 'react-router-dom';
 
 
