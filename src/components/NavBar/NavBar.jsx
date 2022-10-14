@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom"
+
 const NavBar = () => {
   return (
     <>
-      <h2>Ships</h2>
+    <header className="App-header">
+      <Link to="/">Ships</Link>
+    </header>
     </>
   )
 }
